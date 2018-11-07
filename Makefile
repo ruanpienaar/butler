@@ -5,6 +5,7 @@ release: compile
 
 compile: rebar3 get-deps
 	@./rebar3 compile
+	@./rebar3 escriptize
 
 get-deps:
 	@./rebar3 get-deps

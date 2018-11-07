@@ -5,7 +5,12 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  jsx,
+                  ranch,
+                  cowlib,
+                  cowboy,
+                  sasl
                  ]},
   {mod, { butler_app, []}},
   {env, []}
